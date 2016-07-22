@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Las Vegas Golf Adventures</string>
+    <string name="courses">Golf Courses</string>
+    <string name="hotels">Hotel and Casino\'s</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="nightclubs">Night Clubs</string>
+
+</resources>
