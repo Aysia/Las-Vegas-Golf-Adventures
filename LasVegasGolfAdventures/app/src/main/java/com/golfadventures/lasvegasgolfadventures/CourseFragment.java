@@ -22,18 +22,10 @@ public class CourseFragment extends Fragment {
          */
 
         final ArrayList<Tour> tours = new ArrayList<Tour>();
-        tours.add(new Tour("Aliante Golf Club", R.drawable.aliante, "$49 - $89",
-                "3100 West Elkhorn North Las Vegas, Nevada 89084", "1-800-841-6570"));
-        tours.add(new Tour("Arroyo at Red Rock Country Club", R.drawable.arroyo, "$119 - $175",
-                "2250 Red Springs Drive Las Vegas, Nevada 89135", "1-800-841-6570"));
         tours.add(new Tour("Badlands Golf Club", R.drawable.badlands, "$95-$119",
                 "9119 Alta Drive Las Vegas, Nevada 89145", "1-800-841-6570"));
-        tours.add(new Tour("Boulder Creek Golf Club", R.drawable.boulder_creek, "$110",
-                "1501 Veterans' Memorial Drive Boulder City, NV 89005", "1-800-841-6570"));
         tours.add(new Tour("Cascata", R.drawable.cascata_2, "$245-$395",
                 "One Cascata Drive Boulder City, Nevada 89005", "1-800-841-6570"));
-        tours.add(new Tour("Chimera Golf Club", R.drawable.chimera, "$75-$105",
-                "Mohawk Dr & Lake Mead Pkwy Henderson, Nevada 89011", "1-800-841-6570"));
         tours.add(new Tour("Dragon Ridge Country Club", R.drawable.dragon_ridge, "$275",
                 "552 South Stephanie Street Henderson, Nevada 89012", "1-800-841-6570"));
         tours.add(new Tour("Paiute Golf Resort WOLF", R.drawable.paiute_wolf, "$109-$179",
@@ -44,16 +36,12 @@ public class CourseFragment extends Fragment {
                 "10325 Nu-Wav Kaiv Boulevard Las Vegas, Nevada 89124", "1-800-841-6570"));
         tours.add(new Tour("Reflection Bay Golf Club", R.drawable.reflection_bay, "$190-$225",
                 "1600 Lake Las Vegas Pkwy Henderson, Nevada 89011", "1-800-841-6570"));
-        tours.add(new Tour("Revere Golf Club Concord", R.drawable.revere_concord, "$129",
+        tours.add(new Tour("Revere Golf Club", R.drawable.revere_concord, "$129",
                 "2600 Hampton Road Henderson, Nevada 89052", "1-800-841-6570"));
-        tours.add(new Tour("Rhodes Ranch Golf Club", R.drawable.rhodes, "$79-#110",
-                "20 Rhodes Ranch Pkwy Las Vegas, Nevada 89113", "1-800-841-6570"));
         tours.add(new Tour("Rio Secco Golf Club", R.drawable.rio_secco, "$109-#219",
                 "2851 Grand Hills Drive Henderson, Nevada 89052", "1-800-841-6570"));
         tours.add(new Tour("Shadow Creek", R.drawable.shadow_creek, "$500",
                 "5400 Losee Road North Las Vegas, NV 89081", "1-800-841-6570"));
-        tours.add(new Tour("Siena Golf Club", R.drawable.sienna, "$99-$139",
-                "10575 Siena Monte Avenue Las Vegas, Nevada 89135", "1-800-841-6570"));
         tours.add(new Tour("TPC Las Vegas", R.drawable.tpc, "$190-$250",
                 "9851 Canyon Run Drive Las Vegas, Nevada 89144", "1-800-841-6570"));
 

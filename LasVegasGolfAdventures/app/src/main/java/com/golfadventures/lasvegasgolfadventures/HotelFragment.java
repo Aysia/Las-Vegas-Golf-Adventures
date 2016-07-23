@@ -27,20 +27,12 @@ public class HotelFragment extends Fragment {
                 "3730 Las Vegas Blvd Las Vegas, NV 89158", "1-800-841-6570"));
         tours.add(new Tour("Bellagio Las Vegas", R.drawable.bellagio1, "Up to 50% Off",
                 "3600 Las Vegas Blvd S Las Vegas, Nevada 89109", "1-800-841-6570"));
-        tours.add(new Tour("Delano Las Vegas", R.drawable.delano, "Up to 50% Off",
-                "3940 S Las Vegas Blvd Las Vegas, Nevada 89119", "1-800-841-6570"));
-        tours.add(new Tour("Harrah\'s Las Vegas", R.drawable.harrahs_main, "Up to 50% Off",
-                "3475 Las Vegas Blvd S. Las Vegas, Nevada 89109", "1-800-841-6570"));
-        tours.add(new Tour("JW Marriott", R.drawable.jwmarriott, "Up to 50% Off",
-                "221 N Rampart Blvd. Las Vegas, Nevada 89145", "1-800-841-6570"));
         tours.add(new Tour("Mandalay Bay", R.drawable.mandalay_bay, "Up to 50% Off",
                 "3950 Las Vegas Blvd S Las Vegas, Nevada 89119", "1-800-841-6570"));
         tours.add(new Tour("MGM Grand", R.drawable.mgm_front, "Up to 50% Off",
                 "3799 Las Vegas Blvd S. Las Vegas, Nevada 89109", "1-800-841-6570"));
         tours.add(new Tour("Mirage Las Vegas", R.drawable.themirage, "Up to 50% Off",
                 "3400 Las Vegas Blvd S. Las Vegas, Nevada 89109", "1-800-841-6570"));
-        tours.add(new Tour("Westin Lake Las Vegas", R.drawable.westin_exterior, "Up to 50% Off",
-                "101 Montelago Blvd. Las Vegas, Nevada 89011", "1-800-841-6570"));
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.
