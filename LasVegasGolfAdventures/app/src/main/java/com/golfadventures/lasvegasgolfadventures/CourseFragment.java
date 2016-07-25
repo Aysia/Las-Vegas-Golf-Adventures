@@ -22,28 +22,28 @@ public class CourseFragment extends Fragment {
          */
 
         final ArrayList<Tour> tours = new ArrayList<Tour>();
-        tours.add(new Tour("Badlands Golf Club", R.drawable.badlands, "$95-$119",
-                "9119 Alta Drive Las Vegas, Nevada 89145", "1-800-841-6570"));
-        tours.add(new Tour("Cascata", R.drawable.cascata_2, "$245-$395",
-                "One Cascata Drive Boulder City, Nevada 89005", "1-800-841-6570"));
-        tours.add(new Tour("Dragon Ridge Country Club", R.drawable.dragon_ridge, "$275",
-                "552 South Stephanie Street Henderson, Nevada 89012", "1-800-841-6570"));
-        tours.add(new Tour("Paiute Golf Resort WOLF", R.drawable.paiute_wolf, "$109-$179",
-                "10325 Nu-Wav Kaiv Boulevard Las Vegas, Nevada 89124", "1-800-841-6570"));
-        tours.add(new Tour("Paiute Golf Resort Snow Mountain", R.drawable.paiute_snow, "$99-$159",
-                "10325 Nu-Wav Kaiv Boulevard Las Vegas, Nevada 89124", "1-800-841-6570"));
-        tours.add(new Tour("Paiute Golf Resort Sun Mountain", R.drawable.paiute_sun, "$99-$159",
-                "10325 Nu-Wav Kaiv Boulevard Las Vegas, Nevada 89124", "1-800-841-6570"));
-        tours.add(new Tour("Reflection Bay Golf Club", R.drawable.reflection_bay, "$190-$225",
-                "1600 Lake Las Vegas Pkwy Henderson, Nevada 89011", "1-800-841-6570"));
-        tours.add(new Tour("Revere Golf Club", R.drawable.revere_concord, "$129",
-                "2600 Hampton Road Henderson, Nevada 89052", "1-800-841-6570"));
-        tours.add(new Tour("Rio Secco Golf Club", R.drawable.rio_secco, "$109-#219",
-                "2851 Grand Hills Drive Henderson, Nevada 89052", "1-800-841-6570"));
-        tours.add(new Tour("Shadow Creek", R.drawable.shadow_creek, "$500",
-                "5400 Losee Road North Las Vegas, NV 89081", "1-800-841-6570"));
-        tours.add(new Tour("TPC Las Vegas", R.drawable.tpc, "$190-$250",
-                "9851 Canyon Run Drive Las Vegas, Nevada 89144", "1-800-841-6570"));
+        tours.add(new Tour(R.string.course0, R.drawable.badlands, R.string.rates0,
+                R.string.address0, R.string.bizphone));
+        tours.add(new Tour(R.string.course1, R.drawable.cascata_2, R.string.rates1,
+                R.string.address1, R.string.bizphone));
+        tours.add(new Tour(R.string.course2, R.drawable.dragon_ridge, R.string.rates2,
+                R.string.address2, R.string.bizphone));
+        tours.add(new Tour(R.string.course3, R.drawable.paiute_wolf, R.string.rates3,
+                R.string.address3, R.string.bizphone));
+        tours.add(new Tour(R.string.course4, R.drawable.paiute_snow, R.string.rates4,
+                R.string.address4, R.string.bizphone));
+        tours.add(new Tour(R.string.course5, R.drawable.paiute_sun, R.string.rates5,
+                R.string.address5, R.string.bizphone));
+        tours.add(new Tour(R.string.course6, R.drawable.reflection_bay, R.string.rates6,
+                R.string.address6, R.string.bizphone));
+        tours.add(new Tour(R.string.course7, R.drawable.revere_concord, R.string.rates7,
+                R.string.address7, R.string.bizphone));
+        tours.add(new Tour(R.string.course8, R.drawable.rio_secco, R.string.rates8,
+                R.string.address8, R.string.bizphone));
+        tours.add(new Tour(R.string.course9, R.drawable.shadow_creek,R.string.rates9,
+                R.string.address9, R.string.bizphone));
+        tours.add(new Tour(R.string.course10, R.drawable.tpc,R.string.rates10,
+                R.string.address10, R.string.bizphone));
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.

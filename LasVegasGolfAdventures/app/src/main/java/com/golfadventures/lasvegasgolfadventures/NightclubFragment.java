@@ -26,12 +26,11 @@ public class NightclubFragment extends Fragment {
          */
 
         final ArrayList<Tour> tours = new ArrayList<Tour>();
-        tours.add(new Tour("Jewel Nightclub", "Upscale Fashionable", "ARIA","1-866-359-7757"));
-        tours.add(new Tour("The Bank","Upsdale Fashionable","Bellagio","1-888-987-6667"));
-        tours.add(new Tour("Light","Upscale Fashionable","Mandalay Bay","1-877-632-7800"));
-        tours.add(new Tour("Hakkasan Nighclub","Smart Casual","MGM Grand","1-877-880-0880"));
-        tours.add(new Tour("1 Oak","Upscale Chic","The Mirage","1-800-374-9000"));
-
+        tours.add(new Tour(R.string.jewel, R.string.jewel_info,R.string.aria,R.string.jewel_phone));
+        tours.add(new Tour(R.string.bank,R.string.bank_info,R.string.bellagio,R.string.bank_phone));
+        tours.add(new Tour(R.string.light,R.string.light_info,R.string.mandalay,R.string.light_phone));
+        tours.add(new Tour(R.string.hakkasan,R.string.hakkasan_info,R.string.mgm,R.string.hakkasan_phone));
+        tours.add(new Tour(R.string.oak,R.string.oak_info,R.string.mirage,R.string.oak_phone));
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.

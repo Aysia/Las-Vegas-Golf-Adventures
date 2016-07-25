@@ -10,22 +10,22 @@ public class Tour {
     /**
      * Facility Name
      **/
-    private String mTourName;
+    private int mTourName;
 
     /**
      * Facility Info
      */
-    private String mTourInfo;
+    private int mTourInfo;
 
     /**
      * Facility Address
      */
-    private String mTourAddress;
+    private int mTourAddress;
 
     /**
      * Facility Phone Number
      */
-    private String mPhoneNumber;
+    private int mPhoneNumber;
 
     /**
      * Type (Restaurant/nightclubs) description
@@ -47,7 +47,7 @@ public class Tour {
      * @param tourAddress     is the address for the tour / facility
      * @param phoneNumber     is the phone number for the tour / facility
      */
-    public Tour(String tourName, int imageResourceId, String tourInfo, String tourAddress, String phoneNumber) {
+    public Tour(int tourName, int imageResourceId, int tourInfo, int tourAddress, int phoneNumber) {
         mTourName = tourName;
         mImageResourceId = imageResourceId;
         mTourInfo = tourInfo;
@@ -63,7 +63,7 @@ public class Tour {
      * @param tourAddress is the Hotel Location of the facility
      * @param phoneNumber is the phone number associated to the facility / tour
      */
-    public Tour(String tourName, String tourInfo, String tourAddress, String phoneNumber) {
+    public Tour(int tourName, int tourInfo, int tourAddress, int phoneNumber) {
         mTourName = tourName;
         mTourInfo = tourInfo;
         mTourAddress = tourAddress;
@@ -73,7 +73,7 @@ public class Tour {
     /**
      * Get the name of the Tour
      */
-    public String getTourName() {
+    public int getTourName() {
         return mTourName;
     }
 
@@ -94,21 +94,21 @@ public class Tour {
     /**
      * Return the image resource ID of the word.
      */
-    public String getTourAddress() {
+    public int getTourAddress() {
         return mTourAddress;
     }
 
     /**
      * Returns whether or not there is an image for this word.
      */
-    public String getPhoneNumber() {
+    public int getPhoneNumber() {
         return mPhoneNumber;
     }
 
     /**
      * Returns Info
      */
-    public String getTourInfo() {
+    public int getTourInfo() {
         return mTourInfo;
     }
 }

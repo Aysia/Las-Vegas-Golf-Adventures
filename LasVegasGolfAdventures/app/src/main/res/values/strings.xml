@@ -5,4 +5,113 @@
     <string name="restaurants">Restaurants</string>
     <string name="nightclubs">Night Clubs</string>
 
+    <!-- Tour ArrayList Values for golf courses -->
+    <string name="bizphone">1-800-841-6570</string>
+    <string name="course0">Badlands Golf Club</string>
+    <string name="rates0">$95-$119</string>
+    <string name="address0">9119 Alta Drive Las Vegas, Nevada 89145</string>
+    <string name="course1">Cascata</string>
+    <string name="rates1">$245-$395</string>
+    <string name="address1">One Cascata Drive Boulder City, Nevada 89005</string>
+    <string name="course2">Dragon Ridge Country Club</string>
+    <string name="rates2">$275</string>
+    <string name="address2">552 South Stephanie Street Henderson, Nevada 89012</string>
+    <string name="course3">Paiute Golf Resort WOLF</string>
+    <string name="rates3">$109-$179</string>
+    <string name="address3">10325 Nu-Wav Kaiv Boulevard Las Vegas, Nevada 89124</string>
+    <string name="course4">Paiute Golf Resort Snow Mountain</string>
+    <string name="rates4">$99-$159</string>
+    <string name="address4">10325 Nu-Wav Kaiv Boulevard Las Vegas, Nevada 89124</string>
+    <string name="course5">Paiute Golf Resort Sun Mountain</string>
+    <string name="rates5">$99-$159</string>
+    <string name="address5">10325 Nu-Wav Kaiv Boulevard Las Vegas, Nevada 89124</string>
+    <string name="course6">Reflection Bay Golf Club</string>
+    <string name="rates6">$190-$225</string>
+    <string name="address6">1600 Lake Las Vegas Pkwy Henderson, Nevada 89011</string>
+    <string name="course7">Revere Golf Club</string>
+    <string name="rates7">$129</string>
+    <string name="address7">2600 Hampton Road Henderson, Nevada 89052</string>
+    <string name="course8">Rio Secco Golf Club</string>
+    <string name="rates8">$109-#219</string>
+    <string name="address8">2851 Grand Hills Drive Henderson, Nevada 89052</string>
+    <string name="course9">Shadow Creek</string>
+    <string name="rates9">$500</string>
+    <string name="address9">5400 Losee Road North Las Vegas, NV 89081</string>
+    <string name="course10">TPC Las Vegas</string>
+    <string name="rates10">$190-$250</string>
+    <string name="address10">9851 Canyon Run Drive Las Vegas, Nevada 89144</string>
+
+    <!--Tour ArrayList values for Hotels -->
+    <string name="hotelrate">Up to 50% Off</string>
+    <string name="aria">ARIA Las Vegas</string>
+    <string name="aria_address">3730 Las Vegas Blvd Las Vegas, NV 89158</string>
+    <string name="bellagio">Bellagio Las Vegas</string>
+    <string name="bellagio_address">3600 Las Vegas Blvd S Las Vegas, Nevada 89109</string>
+    <string name="mandalay">Mandalay Bay</string>
+    <string name="mandalay_address">3950 Las Vegas Blvd S Las Vegas, Nevada 89119</string>
+    <string name="mgm">MGM Grand</string>
+    <string name="mgm_address">3799 Las Vegas Blvd S. Las Vegas, Nevada 89109</string>
+    <string name="mirage">Mirage Las Vegas</string>
+    <string name="mirage_address">3400 Las Vegas Blvd S. Las Vegas, Nevada 89109</string>
+
+    <!-- Tour object values for Restaurants -->
+    <!-- aria -->
+    <string name="sage">Sage</string>
+    <string name="sage_type">American</string>
+    <string name="sage_phone">1-866-359-7757</string>
+    <string name="jserrano">Julian Serrano</string>
+    <string name="jserrano_type">Spanish</string>
+    <string name="jserrano_phone">1-866-359-7757</string>
+    <string name="bobbys">Bobby\'s Burger Palace</string>
+    <string name="bobbys_type">American</string>
+    <string name="bobbys_phone">1-866-359-7757</string>
+    <string name="pinkb">Pinkberry</string>
+    <string name="pinkb_type">Yogurt</string>
+    <string name="pinkb_phone">1-866-359-7757</string>
+    <!-- Bellagio-->
+    <string name="yellowtail">Yellowtail Japanese Restaurant &amp; Lounge</string>
+    <string name="yellowtail_type">Japanese</string>
+    <string name="yellowtail_phone">1-888-987-6667</string>
+    <string name="jasmin">Jasmine</string>
+    <string name="jasmin_type">Chinese</string>
+    <string name="jasmin_phone">1-888-987-6667</string>
+    <string name="prime">Prime Steakhouse</string>
+    <string name="prime_type">Steakhouse</string>
+    <string name="prime_phone">1-888-987-6667</string>
+    <!-- Mandalay Bay -->
+    <string name="stripsteak">Stripsteak</string>
+    <string name="stripsteak_type">Steakhouse</string>
+    <string name="stripsteak_phone">1-877-632-7800</string>
+    <string name="fleur">Fleur</string>
+    <string name="fleur_type">French</string>
+    <string name="fleur_phone">1-877-632-7800</string>
+    <string name="kumi">Kumi</string>
+    <string name="kumi_type">Japanese</string>
+    <string name="kumi_phone">1-877-632-7800</string>
+    <!-- MGM -->
+    <string name="wolfgang">Wolfgang Puck Bar &amp; Grill</string>
+    <string name="wolfgang_type">American</string>
+    <string name="wolfgang_phone">1-877-880-0880</string>
+
+    <!-- Nightclubs -->
+    <!--Aria-->
+    <string name="jewel">Jewel Nightclub</string>
+    <string name="jewel_info">Upscale Fashionable</string>
+    <string name="jewel_phone">1-866-359-7757</string>
+    <!--Bellagio-->
+    <string name="bank">The Bank</string>
+    <string name="bank_info">Upsdale Fashionable</string>
+    <string name="bank_phone">1-888-987-6667</string>
+    <!-- Mandalay -->
+    <string name="light">Light</string>
+    <string name="light_info">Upscale Fashionable</string>
+    <string name="light_phone">1-877-632-7800</string>
+    <!--MGM-->
+    <string name="hakkasan">Hakkasan Nighclub</string>
+    <string name="hakkasan_info">Smart Casual</string>
+    <string name="hakkasan_phone">1-877-880-0880</string>
+    <!--Mirage-->
+    <string name="oak">1 Oak</string>
+    <string name="oak_info">Upscale Chic</string>
+    <string name="oak_phone">1-800-374-9000</string>
 </resources>

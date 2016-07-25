@@ -23,16 +23,16 @@ public class HotelFragment extends Fragment {
          */
 
         final ArrayList<Tour> tours = new ArrayList<Tour>();
-        tours.add(new Tour("ARIA Las Vegas", R.drawable.aria, "Up to 50% Off",
-                "3730 Las Vegas Blvd Las Vegas, NV 89158", "1-800-841-6570"));
-        tours.add(new Tour("Bellagio Las Vegas", R.drawable.bellagio1, "Up to 50% Off",
-                "3600 Las Vegas Blvd S Las Vegas, Nevada 89109", "1-800-841-6570"));
-        tours.add(new Tour("Mandalay Bay", R.drawable.mandalay_bay, "Up to 50% Off",
-                "3950 Las Vegas Blvd S Las Vegas, Nevada 89119", "1-800-841-6570"));
-        tours.add(new Tour("MGM Grand", R.drawable.mgm_front, "Up to 50% Off",
-                "3799 Las Vegas Blvd S. Las Vegas, Nevada 89109", "1-800-841-6570"));
-        tours.add(new Tour("Mirage Las Vegas", R.drawable.themirage, "Up to 50% Off",
-                "3400 Las Vegas Blvd S. Las Vegas, Nevada 89109", "1-800-841-6570"));
+        tours.add(new Tour(R.string.aria, R.drawable.aria, R.string.hotelrate,
+                R.string.aria_address, R.string.bizphone));
+        tours.add(new Tour(R.string.bellagio, R.drawable.bellagio1,R.string.hotelrate,
+                R.string.bellagio_address, R.string.bizphone));
+        tours.add(new Tour(R.string.mandalay, R.drawable.mandalay_bay,R.string.hotelrate,
+                R.string.mandalay_address, R.string.bizphone));
+        tours.add(new Tour(R.string.mgm, R.drawable.mgm_front,R.string.hotelrate,
+                R.string.mgm_address, R.string.bizphone));
+        tours.add(new Tour(R.string.mirage, R.drawable.themirage,R.string.hotelrate,
+                R.string.mirage_address, R.string.bizphone));
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.
