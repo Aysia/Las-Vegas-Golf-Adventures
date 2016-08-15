@@ -17,13 +17,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:textAppearanceLarge"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/product_supplier"
-        android:textAppearance="?android:textAppearanceMedium"/>
+        android:textAppearance="?android:textAppearanceMedium" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -54,25 +54,26 @@
             android:layout_height="48dp"
             android:onClick="increment"
             android:text="@string/increment" />
-        </LinearLayout>
+    </LinearLayout>
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/product_price"
-        android:textAppearance="?android:textAppearanceMedium"/>
+        android:textAppearance="?android:textAppearanceMedium" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <Button
             android:id="@+id/delete"
             style="@style/button_styles"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:text="@string/delete_product"/>
+            android:text="@string/delete_product" />
 
         <Button
             android:id="@+id/update"
@@ -82,7 +83,7 @@
             android:layout_alignParentBottom="true"
             android:layout_toRightOf="@+id/delete"
             android:gravity="center|center_horizontal"
-            android:text="@string/update_product"/>
+            android:text="@string/update_product" />
 
         <Button
             android:id="@+id/order"
@@ -91,6 +92,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_toRightOf="@+id/update"
-            android:text="@string/order_product"/>
+            android:text="@string/order_product" />
     </RelativeLayout>
 </LinearLayout>

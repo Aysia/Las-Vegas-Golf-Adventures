@@ -54,7 +54,7 @@ public class AddActivity extends AppCompatActivity {
 
                         long rowId = dbHelper.insertProduct(values);
 
-                        if(rowId > 0) {
+                        if (rowId > 0) {
                             Toast.makeText(getBaseContext(),
                                     "New Product Added to Database.", Toast.LENGTH_LONG).show();
 
@@ -69,6 +69,7 @@ public class AddActivity extends AppCompatActivity {
 
         mImageUp.setOnClickListener(new View.OnClickListener() {
             int SELECT_PICTURE = 0;
+
             @Override
             public void onClick(View arg0) {
                 // TODO Auto-generated method stub
@@ -76,7 +77,7 @@ public class AddActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setType("image/*");
                 intent.setAction(Intent.ACTION_GET_CONTENT);
-                startActivityForResult(Intent.createChooser(intent,"Select Picture"), SELECT_PICTURE);
+                startActivityForResult(Intent.createChooser(intent, "Select Picture"), SELECT_PICTURE);
 
                 Log.i(LOG_TAG, "Select: " + SELECT_PICTURE);
             }

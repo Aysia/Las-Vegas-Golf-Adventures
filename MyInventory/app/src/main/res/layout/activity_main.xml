@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:text="@string/product_text"
             android:textAllCaps="true"
-            android:paddingLeft="@dimen/dips8"/>
+            android:paddingLeft="@dimen/dips8" />
 
         <TextView
             style="@style/HeaderView"
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="20"
             android:text="@string/price_text"
-            android:textAllCaps="true"/>
+            android:textAllCaps="true" />
     </LinearLayout>
 
     <ListView

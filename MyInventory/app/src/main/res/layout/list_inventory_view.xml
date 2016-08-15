@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:textAppearanceMedium"
             android:textStyle="bold"
-            android:paddingLeft="@dimen/dips8"/>
+            android:paddingLeft="@dimen/dips8" />
 
         <TextView
             android:id="@+id/product_quantity"
@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:textAppearanceMedium"
             android:textAlignment="textStart"
-            android:layout_gravity="start"/>
+            android:layout_gravity="start" />
 
         <TextView
             android:id="@+id/product_price"
@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:textAppearanceMedium"
             android:textAlignment="textStart"
-            android:layout_gravity="start"/>
+            android:layout_gravity="start" />
 
     </LinearLayout>
 

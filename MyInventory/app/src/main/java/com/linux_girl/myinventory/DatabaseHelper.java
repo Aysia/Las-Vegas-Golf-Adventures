@@ -37,6 +37,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.execSQL(DatabaseContract.Inventory.DELETE_SALES_TABLE);
         onCreate(db);
     }
+
     public void deleteDatabase(SQLiteDatabase db, String tablename) {
         db.execSQL("DROP TABLE IF EXISTS tablename");
     }
@@ -51,6 +52,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         return newRowId;
     }
+
     public void insertSales(String productId, int quantity, double price,
                             double total) {
 
@@ -81,12 +83,13 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         };
         Cursor cursor = db.query(
                 DatabaseContract.Inventory.PRODUCTS_TABLE_NAME,
-                projection, DatabaseContract.Inventory.PRODUCT_ID+"="+rowId, null,null, null, null
+                projection, DatabaseContract.Inventory.PRODUCT_ID + "=" + rowId, null, null, null, null
         );
         if (cursor != null)
             cursor.moveToFirst();
         return cursor;
     }
+
     public Cursor readInventory(String selection, String[] selectionArgs) {
         SQLiteDatabase db = getReadableDatabase();
 
@@ -104,7 +107,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         String sortOrder = DatabaseContract.Inventory.PRODUCT_ID + " DESC";
 
         Cursor cursor = db.query(
-                DatabaseContract.Inventory.PRODUCTS_TABLE_NAME, projection, selection, selectionArgs, null,null, sortOrder
+                DatabaseContract.Inventory.PRODUCTS_TABLE_NAME, projection, selection, selectionArgs, null, null, sortOrder
         );
         return cursor;
     }
@@ -115,7 +118,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         // Which row to update, based on the ID
         String selection = DatabaseContract.Inventory.PRODUCT_ID + " LIKE ?";
-        String[] selectionArgs = { String.valueOf(ID) };
+        String[] selectionArgs = {String.valueOf(ID)};
 
         int count = db.update(
                 DatabaseContract.Inventory.PRODUCTS_TABLE_NAME,
@@ -125,6 +128,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         return count;
     }
+
     // update product inventory QTY based on _ID
     public int sellProduct(int rowId) {
         SQLiteDatabase db = getWritableDatabase();
@@ -136,11 +140,11 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         // New value for one column
         ContentValues values = new ContentValues();
-        values.put(DatabaseContract.Inventory.PRODUCT_QUANTITY, currentQty +1);
+        values.put(DatabaseContract.Inventory.PRODUCT_QUANTITY, currentQty + 1);
 
         // Which row to update, based on the ID
         String selection = DatabaseContract.Inventory.PRODUCT_ID + " LIKE ?";
-        String[] selectionArgs = { String.valueOf(rowId) };
+        String[] selectionArgs = {String.valueOf(rowId)};
 
         int count = db.update(
                 DatabaseContract.Inventory.PRODUCTS_TABLE_NAME,
@@ -157,7 +161,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         // Define 'where' part of query.
         String selection = DatabaseContract.Inventory.PRODUCT_ID + " LIKE ?";
         // Specify arguments in placeholder order.
-        String[] selectionArgs = { String.valueOf(product_id) };
+        String[] selectionArgs = {String.valueOf(product_id)};
         // Issue SQL statement.
         db.delete(DatabaseContract.Inventory.PRODUCTS_TABLE_NAME, selection, selectionArgs);
     }

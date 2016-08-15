@@ -104,7 +104,7 @@ public class UpdateActivity extends AppCompatActivity {
                         }
                     }
                 });
-        }
+    }
 
     public void bindView(View view, Context context, Cursor cursor) {
         TextView myText = (TextView) findViewById(R.id.product_id);
@@ -127,13 +127,12 @@ public class UpdateActivity extends AppCompatActivity {
         priceView.setText(cursor.getString(cursor.getColumnIndex(DatabaseContract.Inventory.PRODUCT_PRICE)));
     }
 
-    protected void onActivityResult(int requestCode, int resultCode, Intent data)
-    {
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        switch(requestCode) {
+        switch (requestCode) {
             case 1234:
-                if(resultCode == RESULT_OK){
+                if (resultCode == RESULT_OK) {
                     Uri selectedImage = data.getData();
 
                     String[] filePathColumn = {DatabaseContract.Inventory.PRODUCT_IMAGE};
@@ -149,7 +148,9 @@ public class UpdateActivity extends AppCompatActivity {
                     //byte[] myImage = BitmapUtility.getImageBytes(image);
 
                 }
-            }
-        };
+        }
+    }
+
+    ;
 
 }

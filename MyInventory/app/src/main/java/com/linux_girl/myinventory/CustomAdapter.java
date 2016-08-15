@@ -42,6 +42,7 @@ class CustomAdapter extends CursorAdapter {
         dollarFormat += thePrice;
         price.setText(dollarFormat);
     }
+
     public static final int getCursorPosition(Cursor cursor) {
         return cursor.getPosition();
     }
